@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
   create_keys(data, pigeon_hash)
   create_property_keys(data, pigeon_hash)
   insert_data(data, pigeon_hash)
-  puts pigeon_hash
+  pigeon_hash
 end
 
 def create_keys(data, hash)
